@@ -1,0 +1,24 @@
+{
+  "family": "spruce",
+  "tapering": 0.25,
+  "signal_energy": 16.0,
+  "up_probability": 3,
+  "lowest_branch_height": 10,
+  "growth_rate": 0.9,
+  "growth_logic_kit": {
+    "name": "conifer",
+    "properties": {
+      "energy_divisor": 2,
+      "variate_lowest_branch": true
+    }
+  },
+  "leaves_properties": "spruce",
+  "environment_factors" : {
+
+  },
+  "perfect_biomes": { "type": "coniferous" },
+  "acceptable_soils": ["dirt_like"],
+  "features" : [
+    "conifer_topper"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "family": "dtterralith:mirage",
+  "tapering": 0.25,
+  "signal_energy": 10.0,
+  "up_probability": 0,
+  "lowest_branch_height": 2,
+  "growth_rate": 0.9,
+  "leaves_properties": "dtterralith:dark_oak_canopy",
+  "generate_seed": false,
+  "generate_sapling": false,
+  "environment_factors" : {
+
+  },
+  "perfect_biomes": { "name": ".*mirage.*" },
+  "acceptable_soils": ["dirt_like"]
+}
