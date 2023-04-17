@@ -12,21 +12,18 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * @author Harley O'Connor, modified by DJS
- */
-public final class SkylandsGroundFinder implements GroundFinder {
-
-    @Override
-    public List<BlockPos> findGround(LevelAccessor level, BlockPos start) {
-        return Collections.singletonList(CoordUtils.findWorldSurface(level, start, Heightmap.Types.OCEAN_FLOOR));
-    }
-
-    @SubscribeEvent
-    public static void register() {
-        ResourceKey<Level> dimension = Level.OVERWORLD;
-        GroundFinder groundFinder = new SkylandsGroundFinder();
-        GroundFinder.registerGroundFinder(dimension, groundFinder);
-    }
-    
-}
+//public final class SkylandsGroundFinder implements GroundFinder {
+//
+//    @Override
+//    public List<BlockPos> findGround(LevelAccessor level, BlockPos start) {
+//        return Collections.singletonList(CoordUtils.findWorldSurface(level, start, Heightmap.Types.OCEAN_FLOOR));
+//    }
+//
+//    @SubscribeEvent
+//    public static void register() {
+//        ResourceKey<Level> dimension = Level.OVERWORLD;
+//        GroundFinder groundFinder = new SkylandsGroundFinder();
+//        GroundFinder.registerGroundFinder(dimension, groundFinder);
+//    }
+//
+//}

@@ -2,7 +2,6 @@ package com.djs.dtterralith;
 
 import com.djs.dtterralith.registry.DTTRegistries;
 import com.djs.dtterralith.registry.RegisterTerralithBiomes;
-import com.djs.dtterralith.registry.SkylandsGroundFinder;
 import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
 import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;

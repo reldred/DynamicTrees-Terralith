@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 public class DTTRegistries {
 
     public static void setup() {
-        SkylandsGroundFinder.register();
+        //SkylandsGroundFinder.register();
 
     }
 
