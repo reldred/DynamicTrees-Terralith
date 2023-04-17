@@ -1,4 +1,4 @@
-package com.djs.dtterralith;
+package com.djs.dtterralith.registry;
 
 import net.minecraft.data.worldgen.biome.OverworldBiomes;
 import net.minecraft.world.level.biome.Biome;
@@ -8,7 +8,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class RegisterTerralithBiomes {
 
 	public static final DeferredRegister<Biome> REGISTER = DeferredRegister.create(ForgeRegistries.BIOMES, "terralith");
@@ -108,8 +107,7 @@ public class RegisterTerralithBiomes {
 	public static final RegistryObject<Biome> YELLOWSTONE = REGISTER.register("yellowstone", OverworldBiomes::theVoid);
 	public static final RegistryObject<Biome> YOSEMITE_CLIFFS = REGISTER.register("yosemite_cliffs", OverworldBiomes::theVoid);
 	public static final RegistryObject<Biome> YOSEMITE_LOWLANDS = REGISTER.register("yosemite_lowlands", OverworldBiomes::theVoid);
-	
-//    @SubscribeEvent	
+
     public static void register(IEventBus bus) {
         REGISTER.register(bus);
     }

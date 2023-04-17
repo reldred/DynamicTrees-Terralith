@@ -1,13 +1,12 @@
 package com.djs.dtterralith;
 
+import com.djs.dtterralith.registry.DTTRegistries;
+import com.djs.dtterralith.registry.RegisterTerralithBiomes;
+import com.djs.dtterralith.registry.SkylandsGroundFinder;
 import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
-
 import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
-import com.ferreusveritas.dynamictrees.block.rooty.SoilProperties;
-import com.ferreusveritas.dynamictrees.resources.Resources;
 import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -28,8 +27,8 @@ public class DynamicTreesTerralith {
 
         RegistryHandler.setup(MOD_ID);
 
-        RegisterTerralithBiomes.REGISTER.register(modEventBus);
-        SkylandsGroundFinder.register();
+        DTTRegistries.setup();
+        RegisterTerralithBiomes.register(modEventBus);
     }
     
     private void gatherData(final GatherDataEvent event) {

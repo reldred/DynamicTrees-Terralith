@@ -63,7 +63,7 @@
  - 40.1.47 Revert "[1.18.x] Enable the Forge light pipeline by default (#8629)" (#8663)
  - 40.1.46 Fix eager loading of model loaders during datagen causing NPE (#8659)
  - 40.1.45 [1.18.x] Fix 2 crossbow animations not applying to custom variants (#8625)
- - 40.1.44 [1.18.x] Added new Disconnection screen to display better channel/registry mismatch information (#8402)
+ - 40.1.44 [1.18.x] Added new Disconnection screen to display better channel/com.djs.dtterralith.registry mismatch information (#8402)
            Co-authored-by: Curle <42079760+TheCurle@users.noreply.github.com>
  - 40.1.43 [1.18] Avoid exclusive synchronisation in block render type lookups (#8476)
  - 40.1.42 [1.18] Fix command redirects by replacing Commands#fillUsableCommands (#8616)
@@ -184,7 +184,7 @@
            Catch and aggregate exceptions when applying object holders
  - 40.0.34 Remove cut copper from copper storage blocks tag. Closes #8403 (#8539)
  - 40.0.33 Fix brewing stand input placement not auto-splitting stackable potions. (#8534)
- - 40.0.32 Fix lost validation of registry data on singleplayer world load (#8533)
+ - 40.0.32 Fix lost validation of com.djs.dtterralith.registry data on singleplayer world load (#8533)
            Fix some leftover 1.18.2 TODOs
  - 40.0.31 1.18 Allow mod menus to have their own recipebook (#8028)
  - 40.0.30 [1.18.x] Add 3 new ingredient types, and make existing ingredients compatible with datagen (#8517)
@@ -205,7 +205,7 @@
  - 40.0.20 Allow sound instances to play custom audio streams (#8295)
  - 40.0.19 Fix NPE caused by canceling onServerChatEvent (#8516)
  - 40.0.18 [1.18.2] Fix tags for custom forge registries. (#8495)
-           Tag-enabled registries must now be registered to vanilla's root registry. See RegistryBuilder#hasTags.
+           Tag-enabled registries must now be registered to vanilla's root com.djs.dtterralith.registry. See RegistryBuilder#hasTags.
            Modded tag-enabled registries have to use the format `data/<namespace>/tags/<registrynamespace>/<registryname>/<tag>.json`
            This format is to prevent conflicts for registries with the same path but different namespaces
            EX: Registry name `examplemod:shoe`, tag name `blue_shoes` would be `data/<namespace>/tags/examplemod/shoe/blue_shoes.json`
@@ -241,7 +241,7 @@
  - 40.0.5  Add missing module exports arg to server arguments list (#8500)
  - 40.0.4  Fixed swim speed attribute (#8499)
  - 40.0.3  Fix incorrect movement distance calculation (#8497)
- - 40.0.2  Add support to Forge registry wrappers for new Holder system. Closes #8491
+ - 40.0.2  Add support to Forge com.djs.dtterralith.registry wrappers for new Holder system. Closes #8491
            Fix TagBasedToolTypesTest not generating needed data correctly.
  - 40.0.1  Fix JNA not working at runtime and causing issues with natives.
  - 40.0.0  Update to 1.18.2
@@ -278,7 +278,7 @@
  - 39.0.78 Add missing Locale parameter to String.format calls, Fixes getArmorResource functionality on some locaales. (#8463)
  - 39.0.77 Allow items to hide parts of their tooltips by default (#8358)
  - 39.0.76 Prevent 1.x Branches being treated as Pull Requests. (#8443)
- - 39.0.75 Fix RegistryObject not working if created after registry events (#8383)
+ - 39.0.75 Fix RegistryObject not working if created after com.djs.dtterralith.registry events (#8383)
  - 39.0.74 Add support for tagging StructureFeatures (#8408)
  - 39.0.73 Re-added the patch for LivingExperienceDropEvent and enable it for dragons (#8388)
  - 39.0.72 Implement getPickupSound on ForgeFlowingFluid (#8374)
@@ -287,7 +287,7 @@
  - 39.0.69 Deprecate IForgeAbstractMinecart::getCartItem (#8283)
  - 39.0.68 Fix HoeItem patch incorrectly applied during migration. (#8384)
  - 39.0.67 Fix issues with client only commands in combination with server only commands not using MC's command system. (#8452)
- - 39.0.66 Fix FoliagePlacerType and TreeDecoratorType registry (#8394)
+ - 39.0.66 Fix FoliagePlacerType and TreeDecoratorType com.djs.dtterralith.registry (#8394)
  - 39.0.65 Fix PlayerChangeGameModeEvent (#8441)
  - 39.0.64 Fix comparison of custom ParticleRenderTypes leading to broken particle effects. (#8385)
  - 39.0.63 Fix cases where null is potentially sent to Screen events. Closes #8432
@@ -355,7 +355,7 @@
            * Implement the branch filter and move the constant for the minimal changelog tag to a constant in the extension.
            * Adding the JDK and Gradle version to the build script.
  - 39.0.20 Fix and improve Ingredient invalidation (#8361)
- - 39.0.19 Rework world persistence hooks to fix the double registry injection when loading single player worlds. (#8234)
+ - 39.0.19 Rework world persistence hooks to fix the double com.djs.dtterralith.registry injection when loading single player worlds. (#8234)
  - 39.0.18 Update tags for new 1.17 and 1.18 content (#7891)
  - 39.0.17 Fix TerrainParticle rendering black under certain conditions (#8378)
  - 39.0.16 Allow modded tools to work on glow lichen (#8371)
