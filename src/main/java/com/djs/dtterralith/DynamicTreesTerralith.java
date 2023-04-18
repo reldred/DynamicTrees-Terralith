@@ -6,6 +6,7 @@ import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
 import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
 import com.ferreusveritas.dynamictrees.tree.family.Family;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -37,6 +38,10 @@ public class DynamicTreesTerralith {
                 Family.REGISTRY,
                 LeavesProperties.REGISTRY
         );
+    }
+
+    public static ResourceLocation location (String name){
+        return new ResourceLocation(MOD_ID, name);
     }
 
 }

@@ -3,12 +3,17 @@
   "values": [
     "dtterralith:acacia_bush_leaves",
     "dtterralith:acacia_conifer_leaves",
+    "dtterralith:acacia_deciduous_leaves",
     "dtterralith:birch_conifer_leaves",
     "dtterralith:dark_oak_blue_conifer_leaves",
     "dtterralith:dark_oak_canopy_leaves",
+    "dtterralith:dark_oak_maple_leaves",
     "dtterralith:dark_oak_orange_conifer_leaves",
+    "dtterralith:dark_oak_red_conifer_leaves",
+    "dtterralith:dark_oak_red_maple_leaves",
     "dtterralith:oak_bush_leaves",
     "dtterralith:oak_conifer_leaves",
+    "dtterralith:oak_kapok_leaves",
     "dtterralith:oak_yellow_conifer_leaves",
     "dtterralith:scruffy_birch_conifer_leaves",
     "dtterralith:spruce_bush_leaves"
