@@ -12,7 +12,7 @@
 		"select": { "name": "terralith:.*" },
 		"only_if_loaded": "dynamictreesplus",
 		"cancellers": {
-			"types": [  "tree", "dynamictreesplus:cactus"],
+			"types": [ "tree", "dynamictreesplus:cactus" ],
 			"namespaces": [ "minecraft", "terralith" ]
 		}
 	}
