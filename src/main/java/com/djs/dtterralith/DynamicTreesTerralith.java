@@ -32,9 +32,7 @@ public class DynamicTreesTerralith {
     }
     
     private void gatherData(final GatherDataEvent event) {
-        GatherDataHelper.gatherTagData(MOD_ID, event);
-        GatherDataHelper.gatherLootData(MOD_ID, event);
-        GatherDataHelper.gatherBlockStateAndModelData(MOD_ID, event,
+        GatherDataHelper.gatherAllData(MOD_ID, event,
                 Family.REGISTRY,
                 LeavesProperties.REGISTRY
         );
