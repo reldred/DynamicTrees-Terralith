@@ -1,0 +1,5 @@
+{
+  "primitive_leaves": "minecraft:birch_leaves",
+  "cell_kit": "dtterralith:azalea",
+  "light_requirement": 6
+}

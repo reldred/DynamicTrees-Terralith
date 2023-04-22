@@ -2,6 +2,7 @@
   "family": "dark_oak",
   "tapering": 0.3,
   "signal_energy": 12.0,
+  "lowest_branch_height": 5,
   "growth_rate": 0.8,
   "leaves_properties": "dtterralith:dark_oak_red_maple",
   "environment_factors" : {

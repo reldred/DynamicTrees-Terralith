@@ -1,0 +1,26 @@
+{
+  "family": "dark_oak",
+  "tapering": 0,
+  "up_probability": 2,
+  "lowest_branch_height": 0,
+  "signal_energy": 8.0,
+  "growth_rate": 0.7,
+  "soil_longevity": 2,
+  "leaves_properties": "dtterralith:dark_oak_red_azalea",
+  "environment_factors": {
+    "hot": 0.5,
+    "cold": 0.5
+  },
+  "growth_logic_kit": "azalea",
+  "perfect_biomes": { "name": "terralith:temperate_highlands" },
+  "acceptable_soils": ["dirt_like"],
+  "features": [
+    {
+      "name": "rot_soil",
+      "properties": {
+        "rotten_soil": "podzol"
+      }
+    },
+    "mushroom_rot"
+  ]
+}
