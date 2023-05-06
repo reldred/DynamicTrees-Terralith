@@ -71,7 +71,7 @@ public class DynamicTreesTerralith {
 					{
 					    event.addRepositorySource((packConsumer, packConstructor) ->
 					            packConsumer.accept(packConstructor.create(
-					            		"builtin/overworld_json_fix", new TextComponent("dtterralith fixes: overworld_json_fix"), false,
+					            		"builtin/overworld_json_fix", new TextComponent("dtterralith fixes: overworld_json_fix"), true,
 					                    () -> pack, metadataSection, Pack.Position.TOP, PackSource.BUILT_IN, false)));
 					}
 				} catch (IOException e) {
@@ -88,7 +88,7 @@ public class DynamicTreesTerralith {
 					{
 					    event.addRepositorySource((packConsumer, packConstructor) ->
 					            packConsumer.accept(packConstructor.create(
-					            		"builtin/skylands_winter_fix", new TextComponent("dtterralith fixes: skylands_winter_fix"), false,
+					            		"builtin/skylands_winter_fix", new TextComponent("dtterralith fixes: skylands_winter_fix"), true,
 					                    () -> pack, metadataSection, Pack.Position.TOP, PackSource.BUILT_IN, false)));
 					}
 				} catch (IOException e) {
@@ -105,7 +105,7 @@ public class DynamicTreesTerralith {
 					{
 					    event.addRepositorySource((packConsumer, packConstructor) ->
 					            packConsumer.accept(packConstructor.create(
-					            		"builtin/replace_tree_features_fix", new TextComponent("dtterralith fixes: replace_tree_features_fix"), false,
+					            		"builtin/replace_tree_features_fix", new TextComponent("dtterralith fixes: replace_tree_features_fix"), true,
 					                    () -> pack, metadataSection, Pack.Position.TOP, PackSource.BUILT_IN, false)));
 					}
 				} catch (IOException e) {
