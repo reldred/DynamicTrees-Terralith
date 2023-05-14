@@ -62,39 +62,6 @@ public class DynamicTreesTerralith {
 		String MODID = "dtterralith";
 		
 		if (event.getPackType() == PackType.SERVER_DATA) {
-			if ((Boolean)DTTConfigs.OVERWORLD_JSON_FIX.get()) {
-				var resourcePath = ModList.get().getModFileById(MODID).getFile().findResource("resourcepacks/overworld_json_fix");
-
-	            try (var pack = new PathResourcePack(ModList.get().getModFileById(MODID).getFile().getFileName() + ":" + resourcePath, resourcePath)) {
-					var metadataSection = pack.getMetadataSection(PackMetadataSection.SERIALIZER);
-					if (metadataSection != null)
-					{
-					    event.addRepositorySource((packConsumer, packConstructor) ->
-					            packConsumer.accept(packConstructor.create(
-					            		"builtin/overworld_json_fix", new TextComponent("dtterralith fixes: overworld_json_fix"), true,
-					                    () -> pack, metadataSection, Pack.Position.TOP, PackSource.BUILT_IN, false)));
-					}
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-			
-			if ((Boolean)DTTConfigs.SKYLANDS_WINTER_FIX.get()) {
-				var resourcePath = ModList.get().getModFileById(MODID).getFile().findResource("resourcepacks/skylands_winter_fix");
-
-	            try (var pack = new PathResourcePack(ModList.get().getModFileById(MODID).getFile().getFileName() + ":" + resourcePath, resourcePath)) {
-					var metadataSection = pack.getMetadataSection(PackMetadataSection.SERIALIZER);
-					if (metadataSection != null)
-					{
-					    event.addRepositorySource((packConsumer, packConstructor) ->
-					            packConsumer.accept(packConstructor.create(
-					            		"builtin/skylands_winter_fix", new TextComponent("dtterralith fixes: skylands_winter_fix"), true,
-					                    () -> pack, metadataSection, Pack.Position.TOP, PackSource.BUILT_IN, false)));
-					}
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
 
 			if ((Boolean)DTTConfigs.REPLACE_TREE_FEATURES_FIX.get()) {
 				var resourcePath = ModList.get().getModFileById(MODID).getFile().findResource("resourcepacks/replace_tree_features_fix");
