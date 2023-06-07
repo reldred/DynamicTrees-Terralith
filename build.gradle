@@ -116,6 +116,7 @@ dependencies {
     //implementation(files('lib/Terralith-v2.2.3.jar'))
     implementation "curse.maven:terralith-513688:4105134"
 
+    runtimeOnly(fg.deobf("com.harleyoconnor.suggestionproviderfix:SuggestionProviderFix-1.18.1:${property("suggestionProviderFixVersion")}"))
     runtimeOnly(fg.deobf("org.squiddev:cc-tweaked-$mcVersion:${property("ccVersion")}"))
 }
 
