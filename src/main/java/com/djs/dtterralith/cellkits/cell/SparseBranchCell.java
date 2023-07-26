@@ -1,6 +1,7 @@
 package com.djs.dtterralith.cellkits.cell;
 
 import com.ferreusveritas.dynamictrees.api.cell.Cell;
+
 import net.minecraft.core.Direction;
 
 public class SparseBranchCell implements Cell {
@@ -10,7 +11,7 @@ public class SparseBranchCell implements Cell {
 		return 2;
 	}
 
-	static final int[] map = {0, 2, 2, 2, 2, 2};
+	static final int[] map = { 0, 2, 2, 2, 2, 2 };
 
 	@Override
 	public int getValueFromSide(Direction side) {

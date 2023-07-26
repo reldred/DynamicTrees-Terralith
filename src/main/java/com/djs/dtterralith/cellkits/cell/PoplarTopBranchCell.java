@@ -1,6 +1,7 @@
 package com.djs.dtterralith.cellkits.cell;
 
 import com.ferreusveritas.dynamictrees.api.cell.Cell;
+
 import net.minecraft.core.Direction;
 
 public class PoplarTopBranchCell implements Cell {
@@ -10,11 +11,11 @@ public class PoplarTopBranchCell implements Cell {
 		return 5;
 	}
 
-	static final int[] map = {3, 4, 3, 3, 3, 3};
-	
+	static final int[] map = { 3, 4, 3, 3, 3, 3 };
+
 	@Override
 	public int getValueFromSide(Direction side) {
-			return map[side.ordinal()];
+		return map[side.ordinal()];
 	}
 
 }
