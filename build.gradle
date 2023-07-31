@@ -46,6 +46,8 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             property 'forge.enabledGameTestNamespaces', 'dtterralith'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', '${buildDir}/createSrgToMcp/output.srg'
             mods {
                 dtterralith {
                     source sourceSets.main
@@ -115,6 +117,7 @@ dependencies {
 
     //implementation(files('lib/Terralith-v2.2.3.jar'))
     implementation "curse.maven:terralith-513688:4105134"
+    //implementation "curse.maven:cristel-lib-856996:4531755"
 
     runtimeOnly(fg.deobf("com.harleyoconnor.suggestionproviderfix:SuggestionProviderFix-1.18.1:${property("suggestionProviderFixVersion")}"))
     runtimeOnly(fg.deobf("org.squiddev:cc-tweaked-$mcVersion:${property("ccVersion")}"))
