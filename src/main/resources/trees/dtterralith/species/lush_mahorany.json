@@ -14,6 +14,7 @@
     "wet": 1.1
   },
   "perfect_biomes": { "type": "jungle" },
+  "drop_seeds": false,
   "features" : [
     {
       "name": "alt_leaves",
