@@ -5,6 +5,7 @@
   "up_probability": 1,
   "lowest_branch_height": 6,
   "growth_rate": 0.6,
+  "leaves_properties": "dtterralith:azalea_canopy",
   "growth_logic_kit": "dtterralith:tall_deciduous",
   "environment_factors" : {
     "cold": 0.25,
@@ -16,7 +17,7 @@
     {
       "name": "alt_leaves",
       "properties": {
-        "alternative_leaves": "dtterralith:flowering_acacia_lush",
+        "alternative_leaves": "dtterralith:flowering_azalea_canopy",
         "place_chance": 0.35
       }
     }

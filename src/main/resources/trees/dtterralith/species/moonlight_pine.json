@@ -14,8 +14,6 @@
   },
   "leaves_properties": "dtterralith:acacia_conifer",
   "drop_seeds": false,
-  "generate_seed": false,
-  "generate_sapling": false,
   "environment_factors" : {
 
   },

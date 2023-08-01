@@ -6,7 +6,7 @@
   "lowest_branch_height": 2,
   "growth_rate": 1.0,
   "growth_logic_kit": "jungle",
-  "leaves_properties": "dtterralith:jungle_lush",
+  "leaves_properties": "dtterralith:azalea_jungle",
   "environment_factors" : {
     "cold": 0.15,
     "dry": 0.2,
@@ -18,15 +18,8 @@
     {
       "name": "alt_leaves",
       "properties": {
-        "alternative_leaves": "dtterralith:flowering_jungle_lush",
+        "alternative_leaves": "dtterralith:flowering_azalea_jungle",
         "place_chance": 0.35
-      }
-    },
-    {
-      "name": "undergrowth",
-      "properties": {
-        "undergrowth_species": "dynamictrees:oak_undergrowth",
-        "secondary_undergrowth_species": "dynamictrees:jungle_undergrowth"
       }
     }
   ]

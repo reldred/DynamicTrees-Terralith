@@ -15,7 +15,7 @@
       "branch_out_chance": 3
     }
   },
-  "leaves_properties": "dtterralith:jungle_amethyst",
+  "leaves_properties": "dtterralith:acacia_amethyst",
   "environment_factors" : {
     "cold": 0.15,
     "dry": 0.2,
