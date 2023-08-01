@@ -1,4 +1,6 @@
 {
   "block.dtterralith.moonlight_branch": "Moonlight Tree",
-  "block.dtterralith.mirage_branch": "Mirage Tree"
+  "block.dtterralith.mirage_branch": "Mirage Tree",
+
+  "species.dtterralith.acacia_bush": "Mirage Tree"
 }

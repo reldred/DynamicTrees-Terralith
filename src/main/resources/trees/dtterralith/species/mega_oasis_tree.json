@@ -1,0 +1,32 @@
+{
+  "family": "jungle",
+  "tapering": 0.3,
+  "up_probability": 1,
+  "lowest_branch_height": 6,
+  "signal_energy": 16.0,
+  "growth_rate": 0.7,
+  "soil_longevity": 8,
+  "leaves_properties": "dtterralith:azalea_oasis",
+  "drop_seeds": false,
+  "environment_factors": {
+    "dry": 0.5,
+    "dense": 0.75
+  },
+  "growth_logic_kit": "azalea",
+  "features": [
+    {
+      "name": "vines",
+      "properties": {
+        "quantity": 16,
+        "max_length": 16
+      }
+    },
+    {
+      "name": "alt_leaves",
+      "properties": {
+        "alternative_leaves": "dtterralith:flowering_azalea_oasis",
+        "place_chance": 0.35
+      }
+    }
+  ]
+}

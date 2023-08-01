@@ -17,7 +17,7 @@
     "wet": 0.75
   },
   "perfect_biomes": { "type": "coniferous" },
-  "acceptable_soils": ["dirt_like"],
+  "mega_species": "mega_spruce",
   "features" : [
     "conifer_topper"
   ]

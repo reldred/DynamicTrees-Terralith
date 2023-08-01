@@ -22,7 +22,7 @@ public class DTTerralithCellKits {
         registry.registerAll(SPARSE, POPLAR);
     }
 
-    public static final CellKit SPARSE = new CellKit(new ResourceLocation(DynamicTreesTerralith.MOD_ID, "sparse")) {
+    public static final CellKit SPARSE = new CellKit(DynamicTreesTerralith.location("sparse")) {
 
         private final Cell sparseBranch = new SparseBranchCell();
         private final Cell sparseLeaves = new NormalCell(1);
@@ -56,7 +56,7 @@ public class DTTerralithCellKits {
 
     };
 
-    public static final CellKit POPLAR = new CellKit(new ResourceLocation(DynamicTreesTerralith.MOD_ID, "poplar")) {
+    public static final CellKit POPLAR = new CellKit(DynamicTreesTerralith.location("poplar")) {
 
         private final Cell poplarBranch = new PoplarBranchCell();
         private final Cell poplarTopBranch = new PoplarTopBranchCell();
