@@ -1,0 +1,33 @@
+{
+  "family": "jungle",
+  "tapering": 0.2,
+  "signal_energy": 24.0,
+  "up_probability": 3,
+  "lowest_branch_height": 2,
+  "growth_rate": 1.0,
+  "growth_logic_kit": "jungle",
+  "leaves_properties": "dtterralith:jungle_lush",
+  "environment_factors" : {
+    "cold": 0.15,
+    "dry": 0.2,
+    "hot": 1.1,
+    "wet": 1.1
+  },
+  "perfect_biomes": { "type": "jungle" },
+  "features" : [
+    {
+      "name": "alt_leaves",
+      "properties": {
+        "alternative_leaves": "dtterralith:flowering_jungle_lush",
+        "place_chance": 0.35
+      }
+    },
+    {
+      "name": "undergrowth",
+      "properties": {
+        "undergrowth_species": "dynamictrees:oak_undergrowth",
+        "secondary_undergrowth_species": "dynamictrees:jungle_undergrowth"
+      }
+    }
+  ]
+}
