@@ -7,7 +7,7 @@
   "lowest_branch_height": 5,
   "growth_rate": 0.2,
   "soil_longevity": 10,
-  "leaves_properties": "dtterralith:sparse_oak",
+  "leaves_properties": "dtterralith:oak_sparse",
   "environment_factors" : {
     "cold": 0.5,
     "dry": 0.5

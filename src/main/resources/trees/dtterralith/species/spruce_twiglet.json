@@ -1,0 +1,12 @@
+{
+  "family": "spruce",
+  "signal_energy": 1.5,
+  "lowest_branch_height": 1,
+  "leaves_properties": "dtterralith:spruce_twiglet",
+  "growth_logic_kit": {
+    "name": "dtterralith:variate_height",
+    "properties": {
+      "height_variation": 3
+    }
+  }
+}

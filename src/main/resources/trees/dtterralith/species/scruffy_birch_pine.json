@@ -6,7 +6,7 @@
   "lowest_branch_height": 3,
   "growth_rate": 0.9,
   "growth_logic_kit": "conifer",
-  "leaves_properties": "dtterralith:scruffy_birch_conifer",
+  "leaves_properties": "dtterralith:birch_scruffy_conifer",
   "drop_seeds": false,
   "environment_factors" : {
     "hot": 0.50,
