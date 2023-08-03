@@ -1,0 +1,27 @@
+{
+  "family": "dark_oak",
+  "tapering": 0.15,
+  "signal_energy": 40.0,
+  "lowest_branch_height": 25,
+  "growth_rate": 1.2,
+  "soil_longevity": 32,
+  "max_branch_radius": 24,
+  "leaves_properties": "dtterralith:dark_oak_ancient",
+  "world_gen_leaf_map_height": 64,
+  "environment_factors" : {
+    "dry": 0.5,
+    "hot": 0.7,
+    "cold": 0.7
+  },
+  "drop_seeds": false,
+  "perfect_biomes": { "name": ".*mirage.*" },
+  "features" : [
+    {
+      "name": "rot_soil",
+      "properties": {
+        "rotten_soil": "podzol"
+      }
+    },
+    "mushroom_rot"
+  ]
+}

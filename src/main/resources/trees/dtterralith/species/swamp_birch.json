@@ -1,0 +1,36 @@
+{
+  "type": "swamp_oak",
+  "family": "birch",
+  "tapering": 0.2,
+  "up_probability": 0,
+  "signal_energy": 16.0,
+  "lowest_branch_height": 5,
+  "growth_rate": 0.8,
+  "soil_longevity": 10,
+  "leaves_properties": "birch",
+  "environment_factors" : {
+    "cold": 0.5,
+    "dry": 0.5
+  },
+  "common_override": { "name": "terralith:orchid_swamp" },
+  "perfect_biomes": { "type": "swamp" },
+  "acceptable_soils": ["dirt_like", "water_like"],
+  "features" : [
+    {
+      "name": "vines",
+      "properties": {
+        "max_length": 7,
+        "vertical_spread": 30,
+        "ray_distance": 6,
+        "quantity": 24
+      }
+    },
+    {
+      "name": "rot_soil",
+      "properties": {
+        "block": "podzol"
+      }
+    },
+    "mushroom_rot"
+  ]
+}

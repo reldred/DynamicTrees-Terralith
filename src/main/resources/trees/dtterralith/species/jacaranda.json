@@ -12,14 +12,14 @@
       "split_ends_energy": 2
     }
   },
-  "leaves_properties": "dtterralith:dark_oak_lavender",
+  "leaves_properties": "dtterralith:dark_oak_jacaranda",
   "drop_seeds": false,
   "perfect_biomes": { "name": ".*lavender.*" },
   "features" : [
     {
       "name": "alt_leaves",
       "properties": {
-        "alternative_leaves": "dtterralith:jungle_lavender",
+        "alternative_leaves": "dtterralith:jungle_jacaranda",
         "place_chance": 0.35
       }
     }

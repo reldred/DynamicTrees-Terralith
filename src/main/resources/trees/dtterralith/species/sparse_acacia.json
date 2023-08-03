@@ -1,13 +1,11 @@
 {
   "family": "acacia",
   "tapering": 0.15,
-  "signal_energy": 6.0,
+  "signal_energy": 12.0,
   "up_probability": 0,
-  "lowest_branch_height": 1,
-  "growth_rate": 0.6,
-  "soil_longevity": 2,
-  "leaves_properties": "acacia",
-  "mega_species": "acacia",
+  "lowest_branch_height": 3,
+  "growth_rate": 0.1,
+  "leaves_properties": "dtterralith:sparse_acacia",
   "environment_factors" : {
     "cold": 0.25,
     "nether": 0.75,

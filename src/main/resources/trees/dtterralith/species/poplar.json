@@ -8,5 +8,7 @@
   "growth_rate": 0.85,
   "growth_logic_kit": "dtterralith:poplar",
   "leaves_properties": "dtterralith:birch_poplar",
-  "perfect_biomes": { "name": "terralith:white_cliffs" }
+  "perfect_biomes": { "name": "terralith:white_cliffs" },
+  "common_override": { "name": "terralith:white_cliffs" },
+  "drop_seeds": false
 }

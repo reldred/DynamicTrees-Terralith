@@ -12,10 +12,13 @@
       "split_ends_energy": 2
     }
   },
+  "mega_species": "dtterralith:mega_ancient",
   "leaves_properties": "dtterralith:dark_oak_canopy",
   "environment_factors" : {
-
+    "dry": 0.5,
+    "hot": 0.7,
+    "cold": 0.7
   },
   "perfect_biomes": { "name": ".*mirage.*" },
-  "acceptable_soils": ["dirt_like"]
+  "common_override": { "name": ".*mirage.*" }
 }

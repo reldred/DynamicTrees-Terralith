@@ -1,0 +1,23 @@
+{
+  "family": "jungle",
+  "tapering": 0.3,
+  "signal_energy": 12.0,
+  "growth_rate": 0.2,
+  "leaves_properties": "dtterralith:sparse_jungle",
+  "environment_factors" : {
+    "cold": 0.15,
+    "dry": 0.2,
+    "hot": 1.1,
+    "wet": 1.1
+  },
+  "perfect_biomes": { "types": [ "jungle", "overworld" ] },
+  "features" : [
+    {
+      "name": "rot_soil",
+      "properties": {
+        "rotten_soil": "podzol"
+      }
+    },
+    "mushroom_rot"
+  ]
+}

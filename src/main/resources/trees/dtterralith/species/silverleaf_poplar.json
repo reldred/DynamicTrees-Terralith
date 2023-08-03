@@ -8,5 +8,6 @@
   "growth_rate": 0.85,
   "growth_logic_kit": "dtterralith:poplar",
   "leaves_properties": "dtterralith:acacia_poplar",
-  "perfect_biomes": { "name": "terralith:white_cliffs" }
+  "perfect_biomes": { "name": ".*shrubland.*", "type": "hot" },
+  "drop_seeds": false
 }

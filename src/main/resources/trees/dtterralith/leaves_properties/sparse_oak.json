@@ -1,0 +1,6 @@
+{
+  "type": "scruffy",
+  "primitive_leaves": "minecraft:oak_leaves",
+  "cell_kit": "dtterralith:sparse",
+  "scruffy_leaf_chance": 0.5
+}

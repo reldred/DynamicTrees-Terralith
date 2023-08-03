@@ -12,7 +12,7 @@
       "split_ends_energy": 2
     }
   },
-  "leaves_properties": "dtterralith:dark_oak_canopy",
+  "leaves_properties": "dtterralith:dark_oak_canopy_mirage",
   "generate_seed": false,
   "generate_sapling": false,
   "perfect_biomes": { "name": ".*mirage.*" },

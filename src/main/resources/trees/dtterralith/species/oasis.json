@@ -7,7 +7,7 @@
   "growth_rate": 0.7,
   "soil_longevity": 4,
   "leaves_properties": "dtterralith:azalea_oasis",
-  "mega_species": "dtterralith:mega_oasis_tree",
+  "mega_species": "dtterralith:mega_oasis",
   "drop_seeds": false,
   "environment_factors": {
     "dry": 0.5,
