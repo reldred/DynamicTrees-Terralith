@@ -1,0 +1,18 @@
+{
+  "family": "acacia",
+  "tapering": 0.2,
+  "signal_energy": 24.0,
+  "lowest_branch_height": 5,
+  "growth_rate": 0.9,
+  "leaves_properties": "dtterralith:acacia_amethyst",
+  "drop_seeds": false,
+  "environment_factors" : {
+    "cold": 0.2,
+    "dry": 0.4,
+    "hot": 1.1,
+    "wet": 1.1
+  },
+  "mega_species": "dtterralith:amethyst_mahogany",
+  "perfect_biomes": { "type": "jungle" },
+  "common_override": { "name": "terralith:amethyst.*" }
+}

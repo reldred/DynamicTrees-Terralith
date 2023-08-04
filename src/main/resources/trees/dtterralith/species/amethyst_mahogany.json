@@ -18,8 +18,8 @@
   "leaves_properties": "dtterralith:acacia_amethyst",
   "drop_seeds": false,
   "environment_factors" : {
-    "cold": 0.15,
-    "dry": 0.2,
+    "cold": 0.2,
+    "dry": 0.4,
     "hot": 1.1,
     "wet": 1.1
   },
