@@ -17,6 +17,7 @@
     "dtterralith:birch_conifer_leaves",
     "dtterralith:birch_poplar_leaves",
     "dtterralith:birch_scruffy_conifer_leaves",
+    "dtterralith:birch_short_conifer_leaves",
     "dtterralith:birch_sparse_leaves",
     "dtterralith:birch_twilight_leaves",
     "dtterralith:birch_windswept_leaves",
@@ -41,13 +42,17 @@
     "dtterralith:oak_conifer_leaves",
     "dtterralith:oak_kapok_leaves",
     "dtterralith:oak_scruffy_leaves",
+    "dtterralith:oak_scruffy_tall_conifer_leaves",
     "dtterralith:oak_sparse_leaves",
+    "dtterralith:oak_tall_conifer_leaves",
     "dtterralith:oak_twiglet_leaves",
     "dtterralith:oak_yellow_conifer_leaves",
     "dtterralith:spruce_bush_leaves",
     "dtterralith:spruce_poplar_leaves",
     "dtterralith:spruce_round_leaves",
+    "dtterralith:spruce_short_conifer_leaves",
     "dtterralith:spruce_sparse_leaves",
+    "dtterralith:spruce_tall_conifer_leaves",
     "dtterralith:spruce_twiglet_leaves"
   ]
 }

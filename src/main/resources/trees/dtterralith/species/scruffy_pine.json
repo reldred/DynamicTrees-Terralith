@@ -1,5 +1,5 @@
 {
-  "family": "birch",
+  "family": "oak",
   "tapering": 0.25,
   "signal_energy": 16.0,
   "up_probability": 3,
@@ -12,7 +12,7 @@
       "horizontal_limiter": 2
     }
   },
-  "leaves_properties": "dtterralith:birch_scruffy_conifer",
+  "leaves_properties": "dtterralith:oak_scruffy_tall_conifer",
   "drop_seeds": false,
   "environment_factors" : {
     "hot": 0.50,

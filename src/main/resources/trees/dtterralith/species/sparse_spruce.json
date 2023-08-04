@@ -10,9 +10,5 @@
     "dry": 0.25,
     "wet": 0.75
   },
-  "perfect_biomes": { "type": "cold" },
-  "features" : [
-    "conifer_topper",
-    "podzol"
-  ]
+  "perfect_biomes": { "type": "cold" }
 }
