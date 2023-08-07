@@ -109,7 +109,7 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.1.85'
 
-//    implementation(fg.deobf("curse.maven:jade-324717:3970956"))
+    runtimeOnly(fg.deobf("curse.maven:jade-324717:3970956"))
 
     implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:${property("dynamicTreesVersion")}"))
 
@@ -119,9 +119,9 @@ dependencies {
     implementation "curse.maven:terralith-513688:4105134"
     //implementation "curse.maven:cristel-lib-856996:4531755"
 
-//    runtimeOnly(fg.deobf("com.harleyoconnor.suggestionproviderfix:SuggestionProviderFix-1.18.1:${property("suggestionProviderFixVersion")}"))
-//    runtimeOnly(fg.deobf("org.squiddev:cc-tweaked-$mcVersion:${property("ccVersion")}"))
-//    runtimeOnly(fg.deobf("curse.maven:snow-coated-843893:4626429"))
+    runtimeOnly(fg.deobf("com.harleyoconnor.suggestionproviderfix:SuggestionProviderFix-1.18.1:${property("suggestionProviderFixVersion")}"))
+    runtimeOnly(fg.deobf("org.squiddev:cc-tweaked-$mcVersion:${property("ccVersion")}"))
+    runtimeOnly(fg.deobf("curse.maven:snow-coated-843893:4626429"))
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

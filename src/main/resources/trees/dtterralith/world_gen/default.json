@@ -117,7 +117,7 @@
         }
       },
       "density": 1,
-      "chance": 1
+      "chance": 0.8
     }
   },
   {
@@ -254,7 +254,7 @@
           "oak_undergrowth" : 6
         }
       },
-      "density": 1.3,
+      "density": [ 1.3 ],
       "chance": 1
     }
   },
@@ -482,7 +482,6 @@
       "species" : {
         "random" : {
           "spruce" : 1,
-          "dtterralith:oak_twiglet" : 3,
           "dtterralith:sparse_oak" : 3,
           "dtterralith:scruffy_oak" : 3,
           "dtterralith:ponderosa_pine" : 6,
@@ -765,30 +764,11 @@
     "_comment2": "terralith:cherry/birch_sparse",
     "_comment3": "terralith:cherry/cherry_trees",
     "_comment4": "terralith:cherry/cherry_trees_light",
-    "select": { "name": "terralith:sakura_grove" },
+    "select": { "name": "terralith:sakura_.*" },
     "apply": {
       "species" : {
         "random" : {
           "dtterralith:twilight_birch" : 1,
-          "dtterralith:cherry_bush" : 1,
-          "dtterralith:sakura" : 4
-        }
-      },
-      "density": 0.3,
-      "chance": 1
-    }
-  },
-  {
-    "_comment1": "terralith:cherry/birch",
-    "_comment2": "terralith:cherry/birch_sparse",
-    "_comment3": "terralith:cherry/cherry_trees",
-    "_comment4": "terralith:cherry/cherry_trees_light",
-    "select": { "name": "terralith:sakura_valley" },
-    "apply": {
-      "species" : {
-        "random" : {
-          "dtterralith:twilight_birch" : 1,
-          "dtterralith:cherry_bush" : 1,
           "dtterralith:sakura" : 4
         }
       },
@@ -959,7 +939,6 @@
       "species" : {
         "random" : {
           "dtterralith:twilight_birch" : 1,
-          "dtterralith:cherry_bush" : 1,
           "dtterralith:sakura" : 4
         }
       },

@@ -18,6 +18,13 @@
         "rotten_soil": "podzol"
       }
     },
-    "mushroom_rot"
+    "mushroom_rot",
+    {
+      "name": "undergrowth",
+      "properties": {
+        "undergrowth_species": "dtterralith:oak_twiglet",
+        "proportion_of_secondary_species": 0.5
+      }
+    }
   ]
 }

@@ -19,6 +19,7 @@
   },
   "perfect_biomes": { "type": "coniferous" },
   "acceptable_soils": ["dirt_like"],
+  "mega_species": "dtterralith:mega_orange_pine",
   "features" : [
     "conifer_topper",
     "mushroom_rot"

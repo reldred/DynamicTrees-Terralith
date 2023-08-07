@@ -28,6 +28,13 @@
         "ray_distance": 6,
         "quantity": 24
       }
+    },
+    {
+      "name": "undergrowth",
+      "properties": {
+        "undergrowth_species": "dtterralith:sakura_undergrowth",
+        "proportion_of_secondary_species": 0.9
+      }
     }
   ]
 }
