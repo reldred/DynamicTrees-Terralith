@@ -47,8 +47,9 @@
           "cocoa" : 1
         }
       },
-      "density": 5,
-      "chance": 1
+      "density": 2,
+      "chance": 1,
+      "forestness": 1
     }
   },
   {
@@ -96,7 +97,7 @@
         "random" : {
           "spruce" : 1,
           "dtterralith:black_poplar" : 1,
-          "dtterralith:sparse_spruce" : 1
+          "dtterralith:dwarf_spruce" : 1
         }
       },
       "density": 0.25,
@@ -484,7 +485,7 @@
           "dtterralith:oak_twiglet" : 3,
           "dtterralith:sparse_oak" : 3,
           "dtterralith:scruffy_oak" : 3,
-          "dtterralith:ponderosa_pine" : 2,
+          "dtterralith:ponderosa_pine" : 6,
           "dtterralith:scruffy_birch_pine" : 2
         }
       },
@@ -543,14 +544,17 @@
     "apply": {
       "species" : {
         "random" : {
-          "jungle" : 15,
-          "mega_jungle" : 3,
+          "jungle_undergrowth" : 1,
+          "mega_jungle" : 4,
+          "oak" : 2,
+          "jungle" : 2,
+          "dtterralith:windswept_jungle" : 4,
           "cocoa" : 1
         }
       },
       "density": 2,
       "chance": 1,
-      "forestness" : 1
+      "forestness": 1
     }
   },
   {
@@ -723,14 +727,17 @@
     "apply": {
       "species" : {
         "random" : {
-          "jungle" : 15,
-          "mega_jungle" : 3,
+          "jungle_undergrowth" : 1,
+          "mega_jungle" : 4,
+          "oak" : 2,
+          "jungle" : 2,
+          "dtterralith:windswept_jungle" : 4,
           "cocoa" : 1
         }
       },
       "density": 2,
       "chance": 1,
-      "forestness" : 1
+      "forestness": 1
     }
   },
   {
@@ -746,7 +753,7 @@
           "dtterralith:creeping_juniper" : 2,
           "dtterralith:spruce_twiglet" : 2,
           "dtterralith:black_poplar" : 1,
-          "dtterralith:sparse_spruce" : 1
+          "dtterralith:dwarf_spruce" : 1
         }
       },
       "density": 0.3,
@@ -906,7 +913,7 @@
     "apply": {
       "species" : {
         "random" : {
-          "dtterralith:red_pine" : 1,
+          "dtterralith:orange_pine" : 1,
           "dtterralith:tall_spruce" : 1
         }
       },
@@ -921,7 +928,7 @@
     "apply": {
       "species" : {
         "random" : {
-          "dtterralith:red_pine" : 1,
+          "dtterralith:orange_pine" : 1,
           "dtterralith:tall_spruce" : 1
         }
       },
@@ -935,14 +942,14 @@
     "apply": {
       "species" : {
         "random" : {
-          "dtterralith:mega_blue_pine" : 1,
-          "dtterralith:birch_pine" : 2,
-          "dtterralith:larch" : 2,
-          "dtterralith:ponderosa_pine" : 3
+          "dtterralith:mega_orange_pine" : 1,
+          "dtterralith:birch_pine" : 1,
+          "dtterralith:larch" : 1,
+          "dtterralith:ponderosa_pine" : 1
         }
       },
-      "density": 5,
-      "chance": 0.25,
+      "density": 2.5,
+      "chance": 0.5,
       "heightmap": "ocean_floor"
     }
   },
@@ -1000,7 +1007,7 @@
           "dynamictreesplus:pipe_cactus" : 1
         }
       },
-      "chance": 0.3,
+      "chance": 0.6,
       "heightmap": "ocean_floor"
     }
   },

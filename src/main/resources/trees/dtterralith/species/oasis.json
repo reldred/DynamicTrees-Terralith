@@ -14,6 +14,7 @@
     "dense": 0.75
   },
   "growth_logic_kit": "azalea",
+  "acceptable_soils": ["dirt_like", "sand_like"],
   "features": [
     {
       "name": "vines",
