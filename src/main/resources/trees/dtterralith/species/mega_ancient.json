@@ -22,6 +22,9 @@
         "rotten_soil": "podzol"
       }
     },
-    "mushroom_rot"
+    "mushroom_rot",
+    "bottom_flare",
+    "mound",
+    "roots"
   ]
 }

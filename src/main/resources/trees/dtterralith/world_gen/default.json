@@ -769,10 +769,9 @@
     "apply": {
       "species" : {
         "random" : {
-          "dtterralith:sparse_birch" : 1,
-          "birch_tall" : 1,
+          "dtterralith:twilight_birch" : 1,
           "dtterralith:cherry_bush" : 1,
-          "dtterralith:sakura" : 8
+          "dtterralith:sakura" : 4
         }
       },
       "density": 0.3,
@@ -788,10 +787,9 @@
     "apply": {
       "species" : {
         "random" : {
-          "dtterralith:sparse_birch" : 1,
-          "birch_tall" : 1,
+          "dtterralith:twilight_birch" : 1,
           "dtterralith:cherry_bush" : 1,
-          "dtterralith:sakura" : 8
+          "dtterralith:sakura" : 4
         }
       },
       "density": 0.3,
@@ -960,10 +958,9 @@
     "apply": {
       "species" : {
         "random" : {
-          "dtterralith:sparse_birch" : 1,
-          "birch_tall" : 1,
+          "dtterralith:twilight_birch" : 1,
           "dtterralith:cherry_bush" : 1,
-          "dtterralith:sakura" : 8
+          "dtterralith:sakura" : 4
         }
       },
       "density": 0.3,
@@ -984,8 +981,8 @@
           "dtterralith:lush_acacia" : 1,
           "dtterralith:ebony" : 1,
           "dtterralith:kapok" : 1,
-          "dtterralith:windswept_acacia" : 4,
-          "dtterralith:sparse_jungle" : 6
+          "dtterralith:windswept_acacia" : 2,
+          "dtterralith:sparse_jungle" : 3
         }
       },
       "density": 1.5,
@@ -1240,7 +1237,7 @@
           "dtterralith:northern_spruce" : 1,
           "dtterralith:scruffy_birch_pine" : 1,
           "dtterralith:birch_pine" : 1,
-          "dtterralith:big_pine" : 1
+          "dtterralith:big_spruce" : 1
         }
       },
       "density": 1,
@@ -1258,7 +1255,7 @@
           "dtterralith:northern_spruce" : 1,
           "dtterralith:scruffy_birch_pine" : 1,
           "dtterralith:birch_pine" : 1,
-          "dtterralith:big_pine" : 1
+          "dtterralith:big_spruce" : 1
         }
       },
       "density": 1,

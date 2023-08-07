@@ -1,5 +1,8 @@
 {
+  "type": "scruffy",
   "primitive_leaves": "minecraft:dark_oak_leaves",
   "cell_kit": "dynamictrees:acacia",
+  "color": "16747695",
+  "light_requirement": 4,
   "can_grow_on_ground": true
 }
