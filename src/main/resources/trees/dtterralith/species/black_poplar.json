@@ -9,5 +9,6 @@
   "growth_logic_kit": "dtterralith:poplar",
   "leaves_properties": "dtterralith:spruce_poplar",
   "perfect_biomes": { "name": ".*shrubland.*", "type": "cold" },
+  "world_gen_acceptable_soils": ["snow_like"],
   "drop_seeds": false
 }

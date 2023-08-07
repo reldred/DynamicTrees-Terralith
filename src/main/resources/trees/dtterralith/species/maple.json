@@ -11,6 +11,7 @@
   },
   "drop_seeds": false,
   "perfect_biomes": { "name": ".*maple.*" },
+  "world_gen_acceptable_soils": ["snow_like"],
   "features" : [
     {
       "name": "rot_soil",

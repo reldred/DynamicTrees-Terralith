@@ -25,6 +25,11 @@
     "mushroom_rot",
     "bottom_flare",
     "mound",
-    "roots"
+    {
+      "name": "roots",
+      "properties": {
+        "level_limit": 4
+      }
+    }
   ]
 }
