@@ -1,0 +1,9 @@
+{
+  "common_leaves": "acacia",
+  "common_species": "acacia",
+  "primitive_log": "acacia_log",
+  "primitive_stripped_log": "stripped_acacia_log",
+  "max_branch_radius": 24,
+  "generate_surface_root": true,
+  "max_signal_depth": 64
+}
