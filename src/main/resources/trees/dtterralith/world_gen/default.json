@@ -4,6 +4,7 @@
     "select": { "name": "minecraft:swamp" },
     "apply": {
       "species" : {
+        "method" : "replace",
         "random" : {
           "swamp_oak" : 1,
           "dtterralith:large_swamp_oak" : 2,
@@ -21,6 +22,7 @@
     "select": { "name": "minecraft:dark_forest" },
     "apply": {
       "species" : {
+        "method" : "replace",
         "random" : {
           "oak" : 1,
           "dtterralith:twilight_birch" : 1,
@@ -706,8 +708,8 @@
           "dtterralith:sparse_swamp_birch" : 1
         }
       },
-      "density": 0.1,
-      "chance": 1
+      "density": 0.5,
+      "chance": 0.4
     }
   },
   {

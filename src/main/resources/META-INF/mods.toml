@@ -43,7 +43,7 @@ Adds Dynamic Trees Compatibility to Terralith.
 [[dependencies.dtterralith]]
     modId="terralith"
     mandatory=true
-    versionRange="[2.3.8,)"
+    versionRange="[2.3.10,)"
     ordering="AFTER"
     side="BOTH"
 

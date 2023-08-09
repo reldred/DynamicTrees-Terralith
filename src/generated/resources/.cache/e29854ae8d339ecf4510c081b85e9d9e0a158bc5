@@ -1,4 +1,4 @@
-// 1.19.2	2023-08-09T12:13:19.6231262	dtterralith
+// 1.19.2	2023-08-09T20:43:32.0262438	dtterralith
 c7bc6f9d9562a9ce922022f549dac185b80fe561 data/dtterralith/loot_tables/blocks/acacia_amethyst_leaves.json
 c7bc6f9d9562a9ce922022f549dac185b80fe561 data/dtterralith/loot_tables/blocks/acacia_bush_leaves.json
 c7bc6f9d9562a9ce922022f549dac185b80fe561 data/dtterralith/loot_tables/blocks/acacia_conifer_leaves.json
@@ -15,6 +15,7 @@ c58cece0f1a2f56f6eafba0c46797742aa2921cf data/dtterralith/loot_tables/blocks/aza
 3cafc5b9753cb5df3bebe93cf52ded1b18577083 data/dtterralith/loot_tables/blocks/birch_conifer_leaves.json
 3cafc5b9753cb5df3bebe93cf52ded1b18577083 data/dtterralith/loot_tables/blocks/birch_poplar_leaves.json
 3cafc5b9753cb5df3bebe93cf52ded1b18577083 data/dtterralith/loot_tables/blocks/birch_scruffy_conifer_leaves.json
+3cafc5b9753cb5df3bebe93cf52ded1b18577083 data/dtterralith/loot_tables/blocks/birch_scruffy_leaves.json
 3cafc5b9753cb5df3bebe93cf52ded1b18577083 data/dtterralith/loot_tables/blocks/birch_short_conifer_leaves.json
 3cafc5b9753cb5df3bebe93cf52ded1b18577083 data/dtterralith/loot_tables/blocks/birch_sparse_leaves.json
 3cafc5b9753cb5df3bebe93cf52ded1b18577083 data/dtterralith/loot_tables/blocks/birch_twilight_leaves.json
@@ -71,6 +72,7 @@ aac44ca027475602eb3e00df1c6c776d24922965 data/dtterralith/loot_tables/trees/bran
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/azalea_oasis.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/birch_conifer.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/birch_poplar.json
+986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/birch_scruffy.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/birch_scruffy_conifer.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/birch_short_conifer.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/birch_sparse.json

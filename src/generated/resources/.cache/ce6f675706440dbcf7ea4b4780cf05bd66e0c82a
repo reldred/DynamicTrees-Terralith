@@ -1,4 +1,4 @@
-// 1.19.2	2023-08-09T12:13:19.6207593	Block States: dtterralith
+// 1.19.2	2023-08-09T20:43:32.0327977	Block States: dtterralith
 2606791521eac27fa77ebbeeea442b8073802a51 assets/dtterralith/blockstates/acacia_amethyst_leaves.json
 2606791521eac27fa77ebbeeea442b8073802a51 assets/dtterralith/blockstates/acacia_bush_leaves.json
 2606791521eac27fa77ebbeeea442b8073802a51 assets/dtterralith/blockstates/acacia_conifer_leaves.json
@@ -15,6 +15,7 @@
 8ef838697c46c00a32d716cdcf4638eed23d1cc0 assets/dtterralith/blockstates/birch_conifer_leaves.json
 8ef838697c46c00a32d716cdcf4638eed23d1cc0 assets/dtterralith/blockstates/birch_poplar_leaves.json
 8ef838697c46c00a32d716cdcf4638eed23d1cc0 assets/dtterralith/blockstates/birch_scruffy_conifer_leaves.json
+8ef838697c46c00a32d716cdcf4638eed23d1cc0 assets/dtterralith/blockstates/birch_scruffy_leaves.json
 8ef838697c46c00a32d716cdcf4638eed23d1cc0 assets/dtterralith/blockstates/birch_short_conifer_leaves.json
 8ef838697c46c00a32d716cdcf4638eed23d1cc0 assets/dtterralith/blockstates/birch_sparse_leaves.json
 8ef838697c46c00a32d716cdcf4638eed23d1cc0 assets/dtterralith/blockstates/birch_twilight_leaves.json

@@ -1,6 +1,6 @@
 {
   "common_leaves": "dtterralith:moonlight_spruce",
-  "common_species": "dtterralith:moonlight_spruce",
+  "common_species": "dtterralith:spruce_moonlight",
   "primitive_log": "stripped_spruce_log",
   "generate_stripped_branch": false,
   "max_branch_radius": 8
