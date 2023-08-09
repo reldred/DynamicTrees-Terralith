@@ -1,5 +1,5 @@
 {
-  "common_leaves": "spruce",
+  "common_leaves": "dtterralith:moonlight_spruce",
   "common_species": "dtterralith:moonlight_spruce",
   "primitive_log": "stripped_spruce_log",
   "generate_stripped_branch": false,

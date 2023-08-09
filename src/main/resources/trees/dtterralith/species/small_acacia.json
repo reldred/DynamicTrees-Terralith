@@ -7,6 +7,7 @@
   "growth_rate": 0.6,
   "soil_longevity": 2,
   "leaves_properties": "acacia",
+  "mega_species": "acacia",
   "environment_factors" : {
     "cold": 0.25,
     "nether": 0.75,

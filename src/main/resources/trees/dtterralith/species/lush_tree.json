@@ -1,0 +1,25 @@
+{
+  "family": "oak",
+  "tapering": 0.3,
+  "signal_energy": 12.0,
+  "growth_rate": 0.8,
+  "leaves_properties": "azalea",
+  "environment_factors" : {
+    "cold": 0.75,
+    "hot": 0.5,
+    "dry": 0.5,
+    "forest": 1.05
+  },
+  "perfect_biomes": { "types": [ "forest", "overworld" ] },
+  "drop_seeds": false,
+  "features" : [
+    {
+      "name": "alt_leaves",
+      "properties": {
+        "alternative_leaves": "flowering_azalea",
+        "place_chance": 0.35
+      }
+    },
+    "bee_nest"
+  ]
+}

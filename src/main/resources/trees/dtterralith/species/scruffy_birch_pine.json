@@ -4,17 +4,21 @@
   "signal_energy": 16.0,
   "up_probability": 3,
   "lowest_branch_height": 3,
-  "growth_rate": 0.9,
-  "growth_logic_kit": "conifer",
-  "leaves_properties": "dtterralith:scruffy_birch_conifer",
+  "growth_rate": 0.4,
+  "growth_logic_kit": {
+    "name": "conifer",
+    "properties": {
+      "energy_divisor": 10,
+      "horizontal_limiter": 2
+    }
+  },
+  "leaves_properties": "dtterralith:birch_scruffy_conifer",
   "drop_seeds": false,
   "environment_factors" : {
     "hot": 0.50,
-    "dry": 0.25,
     "wet": 0.75
   },
   "perfect_biomes": { "type": "coniferous" },
-  "acceptable_soils": ["dirt_like"],
   "features" : [
     "conifer_topper"
   ]

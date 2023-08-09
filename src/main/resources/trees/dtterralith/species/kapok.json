@@ -1,0 +1,21 @@
+{
+  "family": "acacia",
+  "tapering": 0.25,
+  "signal_energy": 14.0,
+  "lowest_branch_height": 5,
+  "growth_rate": 0.8,
+  "max_branch_radius": 12,
+  "leaves_properties": "dtterralith:acacia_kapok",
+  "drop_seeds": false,
+  "environment_factors" : {
+    "cold": 0.75,
+    "hot": 0.5,
+    "dry": 0.5,
+    "forest": 1.05
+  },
+  "features" : [
+    "bottom_flare",
+    "mound",
+    "roots"
+  ]
+}

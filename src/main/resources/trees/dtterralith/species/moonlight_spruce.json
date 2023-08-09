@@ -12,7 +12,7 @@
       "variate_lowest_branch": true
     }
   },
-  "leaves_properties": "spruce",
+  "leaves_properties": "dtterralith:spruce_moonlight",
   "generate_seed": false,
   "generate_sapling": false,
   "environment_factors" : {

@@ -1,0 +1,9 @@
+{
+  "family": "oak",
+  "tapering": 0.3,
+  "leaves_properties": "bare",
+  "does_rot": false,
+  "features" : [
+    "dtterralith:random_stripped_branches"
+  ]
+}

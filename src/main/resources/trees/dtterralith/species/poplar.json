@@ -7,6 +7,8 @@
   "lowest_branch_height": 4,
   "growth_rate": 0.85,
   "growth_logic_kit": "dtterralith:poplar",
-  "leaves_properties": "dtterralith:poplar",
-  "perfect_biomes": { "name": "terralith:white_cliffs" }
+  "leaves_properties": "dtterralith:birch_poplar",
+  "perfect_biomes": { "name": "terralith:white_cliffs" },
+  "common_override": { "name": "terralith:white_cliffs" },
+  "drop_seeds": false
 }

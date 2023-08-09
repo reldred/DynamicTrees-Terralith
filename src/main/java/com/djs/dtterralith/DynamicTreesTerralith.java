@@ -1,14 +1,11 @@
 package com.djs.dtterralith;
 
-import java.io.IOException;
-
 import com.djs.dtterralith.registry.DTTRegistries;
 import com.djs.dtterralith.registry.RegisterTerralithBiomes;
 import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
 import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
 import com.ferreusveritas.dynamictrees.tree.family.Family;
-
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
@@ -25,6 +22,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig.Type;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.resource.PathPackResources;
+
+import java.io.IOException;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(DynamicTreesTerralith.MOD_ID)
@@ -47,7 +46,9 @@ public class DynamicTreesTerralith {
 	}
 
 	private void gatherData(final GatherDataEvent event) {
-		GatherDataHelper.gatherAllData(MOD_ID, event, Family.REGISTRY, LeavesProperties.REGISTRY);
+		GatherDataHelper.gatherAllData(MOD_ID, event,
+				Family.REGISTRY,
+				LeavesProperties.REGISTRY);
 	}
 
 	public static ResourceLocation location(String name) {
@@ -59,7 +60,7 @@ public class DynamicTreesTerralith {
 		String MODID = "dtterralith";
 
 		if ((event.getPackType() == PackType.SERVER_DATA)) {
-			if ((Boolean) DTTConfigs.REPLACE_TREE_FEATURES_FIX.get()) {
+			if (DTTConfigs.REPLACE_TREE_FEATURES_FIX.get()) {
 				var resourcePath = ModList.get().getModFileById(MODID).getFile()
 						.findResource("resourcepacks/replace_tree_features_fix");
 
@@ -80,7 +81,7 @@ public class DynamicTreesTerralith {
 		}
 
 		if ((event.getPackType() == PackType.SERVER_DATA)) {
-			if ((Boolean) DTTConfigs.SKYLANDS_WINTER_FIX.get()) {
+			if (DTTConfigs.SKYLANDS_WINTER_FIX.get()) {
 				var resourcePath = ModList.get().getModFileById(MODID).getFile()
 						.findResource("resourcepacks/skylands_winter_fix");
 

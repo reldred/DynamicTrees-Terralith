@@ -1,0 +1,27 @@
+{
+  "family": "dark_oak",
+  "tapering": 0.25,
+  "signal_energy": 25.0,
+  "up_probability": 3,
+  "lowest_branch_height": 4,
+  "growth_rate": 1.1,
+  "soil_longevity": 18,
+  "growth_logic_kit": {
+    "name": "conifer",
+    "properties": { "energy_divisor": 6 }
+  },
+  "leaves_properties": "dtterralith:dark_oak_orange_conifer",
+  "drop_seeds": false,
+  "environment_factors" : {
+    "hot": 0.50,
+    "dry": 0.25,
+    "wet": 0.75
+  },
+  "perfect_biomes": { "type": "coniferous" },
+  "acceptable_soils": ["dirt_like"],
+  "mega_species": "dtterralith:mega_orange_pine",
+  "features" : [
+    "conifer_topper",
+    "mushroom_rot"
+  ]
+}

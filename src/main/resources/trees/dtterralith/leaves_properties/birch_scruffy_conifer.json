@@ -1,0 +1,8 @@
+{
+  "type": "scruffy",
+  "primitive_leaves": "birch_leaves",
+  "cell_kit": "conifer",
+  "smother": 20,
+  "light_requirement": 11,
+  "scruffy_leaf_chance": 0.5
+}

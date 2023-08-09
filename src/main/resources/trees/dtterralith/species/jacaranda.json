@@ -1,0 +1,27 @@
+{
+  "family": "dark_oak",
+  "tapering": 0.2,
+  "signal_energy": 18.0,
+  "up_probability": 8,
+  "lowest_branch_height": 6,
+  "growth_rate": 0.9,
+  "soil_longevity": 3,
+  "growth_logic_kit": {
+    "name": "dtterralith:twisting_tree",
+    "properties": {
+      "split_ends_energy": 2
+    }
+  },
+  "leaves_properties": "dtterralith:dark_oak_jacaranda",
+  "drop_seeds": false,
+  "perfect_biomes": { "name": ".*lavender.*" },
+  "features" : [
+    {
+      "name": "alt_leaves",
+      "properties": {
+        "alternative_leaves": "dtterralith:jungle_jacaranda",
+        "place_chance": 0.35
+      }
+    }
+  ]
+}
