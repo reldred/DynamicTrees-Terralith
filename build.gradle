@@ -115,8 +115,8 @@ dependencies {
     runtimeOnly(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
 
     //implementation(files('lib/Terralith-v2.2.3.jar'))
-    implementation "curse.maven:terralith-513688:4559078"
-    implementation "curse.maven:cristel-lib-856996:4531755"
+    implementation "curse.maven:terralith-513688:4105134"
+    //implementation "curse.maven:cristel-lib-856996:45317
 
     runtimeOnly(fg.deobf("com.harleyoconnor.suggestionproviderfix:SuggestionProviderFix-1.18.1:${property("suggestionProviderFixVersion")}"))
     runtimeOnly(fg.deobf("org.squiddev:cc-tweaked-$mcVersion:${property("ccVersion")}"))

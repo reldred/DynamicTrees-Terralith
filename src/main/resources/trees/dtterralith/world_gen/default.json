@@ -6,9 +6,9 @@
       "species" : {
         "random" : {
           "swamp_oak" : 1,
-          "dtterralith:large_swamp_oak" : 1,
-          "dtterralith:scruffy_swamp_oak" : 1,
-          "dtterralith:sparse_swamp_oak" : 1,
+          "dtterralith:large_swamp_oak" : 2,
+          "dtterralith:scruffy_oak" : 1,
+          "dtterralith:sparse_swamp_oak" : 2,
           "dtterralith:dead_oak" : 1
         }
       },
@@ -23,14 +23,29 @@
       "species" : {
         "random" : {
           "oak" : 1,
-          "dark_oak" : 1,
           "dtterralith:twilight_birch" : 1,
-          "dtterralith:tall_dark_oak" : 2
+          "dtterralith:tall_dark_oak" : 4
         }
       },
-      "density": 1.5,
-      "chance": 1,
+      "density" : { "math": { "div" : [ "noise", 3.0 ] } },
+      "multipass" : true,
       "forestness": 1
+    }
+  },
+  {
+    "select": { "name": "minecraft:dark_forest" },
+    "only_if_loaded": "dynamictreesplus",
+    "apply": {
+      "species" : {
+        "method" : "splice_before",
+        "random" : {
+          "..." : 24,
+          "dynamictreesplus:red_mushroom" : 1,
+          "dynamictreesplus:mega_red_mushroom" : 1,
+          "dynamictreesplus:browm_mushroom" : 1,
+          "dynamictreesplus:mega_brown_mushroom" : 1
+        }
+      }
     }
   },
   {
@@ -38,18 +53,12 @@
     "select": { "name": "minecraft:jungle" },
     "apply": {
       "species" : {
+        "method" : "splice_before",
         "random" : {
-          "jungle_undergrowth" : 1,
-          "mega_jungle" : 4,
-          "oak" : 2,
-          "jungle" : 2,
-          "dtterralith:windswept_jungle" : 4,
-          "cocoa" : 1
+          "..." : 2,
+          "windswept_jungle" : 1
         }
-      },
-      "density": 2,
-      "chance": 1,
-      "forestness": 1
+      }
     }
   },
   {
@@ -74,7 +83,7 @@
         "random" : {
           "..." : 2,
           "northern_spruce" : 1,
-          "sparse_spruce" : 1
+          "black_poplar" : 1
         }
       }
     }
