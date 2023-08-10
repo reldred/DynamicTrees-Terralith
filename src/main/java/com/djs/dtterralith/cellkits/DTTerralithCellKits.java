@@ -1,10 +1,7 @@
 package com.djs.dtterralith.cellkits;
 
 import com.djs.dtterralith.DynamicTreesTerralith;
-import com.djs.dtterralith.cellkits.cell.PoplarBranchCell;
-import com.djs.dtterralith.cellkits.cell.PoplarLeafCell;
-import com.djs.dtterralith.cellkits.cell.PoplarTopBranchCell;
-import com.djs.dtterralith.cellkits.cell.SparseBranchCell;
+import com.djs.dtterralith.cellkits.cell.*;
 import com.ferreusveritas.dynamictrees.api.cell.Cell;
 import com.ferreusveritas.dynamictrees.api.cell.CellKit;
 import com.ferreusveritas.dynamictrees.api.cell.CellNull;
@@ -14,13 +11,12 @@ import com.ferreusveritas.dynamictrees.cell.CellKits;
 import com.ferreusveritas.dynamictrees.cell.MetadataCell;
 import com.ferreusveritas.dynamictrees.cell.NormalCell;
 import com.ferreusveritas.dynamictrees.util.SimpleVoxmap;
-
 import net.minecraft.resources.ResourceLocation;
 
 public class DTTerralithCellKits {
 
 	public static void register(final Registry<CellKit> registry) {
-		registry.registerAll(SPARSE, POPLAR);
+		registry.registerAll(SPARSE, POPLAR, WIDE_DARK_OAK);
 	}
 
 	public static final CellKit SPARSE = new CellKit(new ResourceLocation(DynamicTreesTerralith.MOD_ID, "sparse")) {
@@ -97,6 +93,51 @@ public class DTTerralithCellKits {
 		@Override
 		public int getDefaultHydration() {
 			return 4;
+		}
+
+	};
+
+	public static final CellKit WIDE_DARK_OAK = new CellKit(DynamicTreesTerralith.location("wide_dark_oak")) {
+
+		/** Typical branch with hydration 5 */
+		private final Cell branchCell = new NormalCell(8);
+
+		private final Cell[] darkOakLeafCells = {
+				CellNull.NULL_CELL,
+				new WideDarkOakLeafCell(1),
+				new WideDarkOakLeafCell(2),
+				new WideDarkOakLeafCell(3),
+				new WideDarkOakLeafCell(4),
+				new WideDarkOakLeafCell(5),
+				new WideDarkOakLeafCell(6),
+				new WideDarkOakLeafCell(7)
+		};
+
+		private final CellKits.BasicSolver darkOakSolver = new CellKits.BasicSolver(new short[]{0x0817, 0x0726, 0x0715, 0x0615, 0x0514, 0x0413, 0x0322, 0x0221});
+
+		@Override
+		public Cell getCellForLeaves(int hydro) {
+			return darkOakLeafCells[hydro];
+		}
+
+		@Override
+		public Cell getCellForBranch(int radius, int meta) {
+			return radius == 1 ? branchCell : CellNull.NULL_CELL;
+		}
+
+		@Override
+		public SimpleVoxmap getLeafCluster() {
+			return DTTerralithLeafClusters.WIDE_DARK_OAK;
+		}
+
+		@Override
+		public CellSolver getCellSolver() {
+			return darkOakSolver;
+		}
+
+		@Override
+		public int getDefaultHydration() {
+			return 7;
 		}
 
 	};

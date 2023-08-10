@@ -29,7 +29,7 @@
           "dtterralith:tall_dark_oak" : 6
         }
       },
-      "density" : { "math": { "div" : [ "noise", 3.0 ] } },
+      "density" : [ 0.8 ],
       "multipass" : true,
       "forestness": 1
     }

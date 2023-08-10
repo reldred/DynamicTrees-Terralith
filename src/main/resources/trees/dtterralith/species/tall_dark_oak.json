@@ -8,7 +8,7 @@
   "soil_longevity": 14,
   "max_branch_radius": 24,
   "growth_logic_kit": "dark_oak",
-  "leaves_properties": "dark_oak",
+  "leaves_properties": "dtterralith:dark_oak_wide",
   "environment_factors" : {
     "cold": 0.75,
     "hot": 0.5,

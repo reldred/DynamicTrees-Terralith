@@ -1,4 +1,4 @@
-// 1.19.2	2023-08-09T21:03:06.7793229	dtterralith
+// 1.19.2	2023-08-09T22:01:48.8047864	dtterralith
 c7bc6f9d9562a9ce922022f549dac185b80fe561 data/dtterralith/loot_tables/blocks/acacia_amethyst_leaves.json
 c7bc6f9d9562a9ce922022f549dac185b80fe561 data/dtterralith/loot_tables/blocks/acacia_bush_leaves.json
 c7bc6f9d9562a9ce922022f549dac185b80fe561 data/dtterralith/loot_tables/blocks/acacia_conifer_leaves.json
@@ -32,6 +32,7 @@ c58cece0f1a2f56f6eafba0c46797742aa2921cf data/dtterralith/loot_tables/blocks/aza
 04b7b217fc76e7a1649b6b989c6d4159f5bd938b data/dtterralith/loot_tables/blocks/dark_oak_red_maple_leaves.json
 04b7b217fc76e7a1649b6b989c6d4159f5bd938b data/dtterralith/loot_tables/blocks/dark_oak_sakura_bush_leaves.json
 04b7b217fc76e7a1649b6b989c6d4159f5bd938b data/dtterralith/loot_tables/blocks/dark_oak_sakura_leaves.json
+04b7b217fc76e7a1649b6b989c6d4159f5bd938b data/dtterralith/loot_tables/blocks/dark_oak_wide_leaves.json
 6427587c066e12f35b96f25d0bff91ffd57efcff data/dtterralith/loot_tables/blocks/flowering_azalea_canopy_leaves.json
 6427587c066e12f35b96f25d0bff91ffd57efcff data/dtterralith/loot_tables/blocks/flowering_azalea_mahogany_leaves.json
 6427587c066e12f35b96f25d0bff91ffd57efcff data/dtterralith/loot_tables/blocks/flowering_azalea_oasis_leaves.json
@@ -91,6 +92,7 @@ aac44ca027475602eb3e00df1c6c776d24922965 data/dtterralith/loot_tables/trees/bran
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/dark_oak_red_maple.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/dark_oak_sakura.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/dark_oak_sakura_bush.json
+986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/dark_oak_wide.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/flowering_azalea_canopy.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/flowering_azalea_mahogany.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/flowering_azalea_oasis.json
