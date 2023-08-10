@@ -1,0 +1,22 @@
+{
+  "family": "oak",
+  "tapering": 0.2,
+  "signal_energy": 15.0,
+  "up_probability": 8,
+  "lowest_branch_height": 6,
+  "growth_rate": 0.9,
+  "soil_longevity": 3,
+  "growth_logic_kit": {
+    "name": "dtterralith:twisting_tree",
+    "properties": {
+      "split_ends_energy": 2
+    }
+  },
+  "leaves_properties": "dtterralith:oak_twilight",
+  "environment_factors" : {
+    "sparse": 0.80,
+    "dry": 0.50
+  },
+  "perfect_biomes": { "type": "spooky" },
+  "acceptable_soils": ["dirt_like"]
+}

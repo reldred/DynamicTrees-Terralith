@@ -24,9 +24,9 @@
       "species" : {
         "method" : "replace",
         "random" : {
-          "oak" : 1,
+          "dtterralith:twilight_oak" : 1,
           "dtterralith:twilight_birch" : 1,
-          "dtterralith:tall_dark_oak" : 4
+          "dtterralith:tall_dark_oak" : 6
         }
       },
       "density" : { "math": { "div" : [ "noise", 3.0 ] } },

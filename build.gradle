@@ -116,8 +116,8 @@ dependencies {
     //implementation(files('lib/Terralith-v2.2.3.jar'))
     implementation "curse.maven:terralith-513688:4673786"
 
-    //runtimeOnly(fg.deobf("com.harleyoconnor.suggestionproviderfix:SuggestionProviderFix-1.18.1:${property("suggestionProviderFixVersion")}"))
-    //runtimeOnly(fg.deobf("org.squiddev:cc-tweaked-$mcVersion:${property("ccVersion")}"))
+    runtimeOnly(fg.deobf("org.squiddev:cc-tweaked-$mcVersion:${property("ccVersion")}"))
+    runtimeOnly(fg.deobf("com.harleyoconnor.suggestionproviderfix:SuggestionProviderFix-1.19:${property("suggestionProviderFixVersion")}"))
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

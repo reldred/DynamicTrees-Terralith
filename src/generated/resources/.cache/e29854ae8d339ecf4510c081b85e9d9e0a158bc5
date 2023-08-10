@@ -1,4 +1,4 @@
-// 1.19.2	2023-08-09T20:43:32.0262438	dtterralith
+// 1.19.2	2023-08-09T21:03:06.7793229	dtterralith
 c7bc6f9d9562a9ce922022f549dac185b80fe561 data/dtterralith/loot_tables/blocks/acacia_amethyst_leaves.json
 c7bc6f9d9562a9ce922022f549dac185b80fe561 data/dtterralith/loot_tables/blocks/acacia_bush_leaves.json
 c7bc6f9d9562a9ce922022f549dac185b80fe561 data/dtterralith/loot_tables/blocks/acacia_conifer_leaves.json
@@ -46,6 +46,7 @@ c58cece0f1a2f56f6eafba0c46797742aa2921cf data/dtterralith/loot_tables/blocks/aza
 9ad342c0f4b8bca70c6db531fd160f9a4faf07e7 data/dtterralith/loot_tables/blocks/oak_sparse_leaves.json
 9ad342c0f4b8bca70c6db531fd160f9a4faf07e7 data/dtterralith/loot_tables/blocks/oak_tall_conifer_leaves.json
 9ad342c0f4b8bca70c6db531fd160f9a4faf07e7 data/dtterralith/loot_tables/blocks/oak_twiglet_leaves.json
+9ad342c0f4b8bca70c6db531fd160f9a4faf07e7 data/dtterralith/loot_tables/blocks/oak_twilight_leaves.json
 9ad342c0f4b8bca70c6db531fd160f9a4faf07e7 data/dtterralith/loot_tables/blocks/oak_yellow_conifer_leaves.json
 ee28ee12827dc0407aa4ac1dfa9bfd57abdd7cc9 data/dtterralith/loot_tables/blocks/spruce_bush_leaves.json
 ee28ee12827dc0407aa4ac1dfa9bfd57abdd7cc9 data/dtterralith/loot_tables/blocks/spruce_moonlight_leaves.json
@@ -104,6 +105,7 @@ aac44ca027475602eb3e00df1c6c776d24922965 data/dtterralith/loot_tables/trees/bran
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/oak_sparse.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/oak_tall_conifer.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/oak_twiglet.json
+986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/oak_twilight.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/oak_yellow_conifer.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/spruce_bush.json
 986afb00ce7ce1ff4ba0d792936eed67cb913515 data/dtterralith/loot_tables/trees/leaves/spruce_moonlight.json
