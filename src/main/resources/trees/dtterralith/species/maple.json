@@ -9,7 +9,8 @@
     "cold": 1.1,
     "hot": 0.7
   },
-  "drop_seeds": false,
+  "generate_seed": true,
+  "generate_sapling": true,
   "perfect_biomes": { "name": ".*maple.*" },
   "world_gen_acceptable_soils": ["snow_like"],
   "features" : [

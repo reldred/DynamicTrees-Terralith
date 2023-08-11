@@ -7,11 +7,11 @@
   "growth_rate": 0.7,
   "soil_longevity": 8,
   "leaves_properties": "dtterralith:azalea_oasis",
-  "drop_seeds": false,
   "environment_factors": {
     "dry": 0.5,
     "dense": 0.75
   },
+  "use_seed_of_other_species": "dtterralith:oasis",
   "growth_logic_kit": "azalea",
   "acceptable_soils": ["dirt_like", "sand_like"],
   "features": [

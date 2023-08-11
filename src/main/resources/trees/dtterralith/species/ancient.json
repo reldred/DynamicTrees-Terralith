@@ -14,6 +14,8 @@
   },
   "mega_species": "dtterralith:mega_ancient",
   "leaves_properties": "dtterralith:dark_oak_canopy",
+  "generate_seed": true,
+  "generate_sapling": true,
   "environment_factors" : {
     "dry": 0.5,
     "hot": 0.7,

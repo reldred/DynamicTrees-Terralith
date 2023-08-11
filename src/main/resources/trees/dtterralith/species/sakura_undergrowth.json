@@ -5,6 +5,7 @@
   "signal_energy": 1.2,
   "soil_longevity": 1,
   "leaves_properties": "dtterralith:dark_oak_sakura_bush",
+  "use_seed_of_other_species": "dtterralith:sakura",
   "perfect_biomes": { "names_or": [".*sakura.*", ".*cherry.*"] },
   "acceptable_soils": ["dirt_like"]
 }
