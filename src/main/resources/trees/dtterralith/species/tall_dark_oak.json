@@ -17,6 +17,7 @@
   },
   "perfect_biomes": { "type": "spooky", "name": "minecraft:.*" },
   "common_override": { "name": "minecraft:dark_forest" },
+  "generate_sapling": true,
   "primitive_sapling": "dark_oak_sapling",
   "features" : [
     {

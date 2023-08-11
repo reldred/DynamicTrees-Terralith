@@ -14,5 +14,6 @@
   },
   "mega_species": "dtterralith:amethyst_mahogany",
   "perfect_biomes": { "type": "jungle" },
-  "common_override": { "name": "terralith:amethyst.*" }
+  "common_override": { "name": "terralith:amethyst.*" },
+  "generate_sapling": true
 }

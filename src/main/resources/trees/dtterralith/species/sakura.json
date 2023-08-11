@@ -12,6 +12,7 @@
   },
   "perfect_biomes": { "names_or": [".*sakura.*", ".*cherry.*"] },
   "common_override": { "name": "terralith:sakura.*" },
+  "generate_sapling": true,
   "features" : [
     {
       "name": "alt_leaves",

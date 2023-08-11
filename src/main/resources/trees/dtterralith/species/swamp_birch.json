@@ -12,8 +12,9 @@
     "cold": 0.5,
     "dry": 0.5
   },
-  "common_override": { "name": "terralith:orchid_swamp" },
   "perfect_biomes": { "type": "swamp" },
+  "common_override": { "name": "terralith:orchid_swamp" },
+  "generate_sapling": true,
   "acceptable_soils": ["dirt_like", "water_like"],
   "features" : [
     {

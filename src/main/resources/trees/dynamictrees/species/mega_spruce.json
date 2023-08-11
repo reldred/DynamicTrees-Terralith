@@ -19,8 +19,9 @@
     "dry": 0.25,
     "wet": 0.75
   },
-  "common_override": { "name": "minecraft:.*giant_tree_taiga.*" },
   "perfect_biomes": { "name": "minecraft:.*giant_tree_taiga.*" },
+  "common_override": { "name": "minecraft:.*giant_tree_taiga.*" },
+  "generate_sapling": true,
   "mega_species": "dtterralith:giga_spruce",
   "features" : [
     "conifer_topper",

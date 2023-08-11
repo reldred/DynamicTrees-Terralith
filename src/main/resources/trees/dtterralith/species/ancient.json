@@ -20,5 +20,6 @@
     "cold": 0.7
   },
   "perfect_biomes": { "name": ".*mirage.*" },
-  "common_override": { "name": ".*mirage.*" }
+  "common_override": { "name": ".*mirage.*" },
+  "generate_sapling": true
 }

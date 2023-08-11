@@ -6,6 +6,7 @@ import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
 import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
 import com.ferreusveritas.dynamictrees.tree.family.Family;
+import com.ferreusveritas.dynamictrees.tree.species.Species;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
@@ -48,6 +49,7 @@ public class DynamicTreesTerralith {
 	private void gatherData(final GatherDataEvent event) {
 		GatherDataHelper.gatherAllData(MOD_ID, event,
 				Family.REGISTRY,
+				Species.REGISTRY,
 				LeavesProperties.REGISTRY);
 	}
 
