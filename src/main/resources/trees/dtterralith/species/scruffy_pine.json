@@ -13,7 +13,7 @@
     }
   },
   "leaves_properties": "dtterralith:oak_scruffy_tall_conifer",
-  "drop_seeds": false,
+  "use_seed_of_other_species": "dtterralith:cedar",
   "environment_factors" : {
     "hot": 0.50,
     "wet": 0.75

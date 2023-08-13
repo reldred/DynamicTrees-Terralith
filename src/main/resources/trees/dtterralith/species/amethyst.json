@@ -5,7 +5,8 @@
   "lowest_branch_height": 5,
   "growth_rate": 0.9,
   "leaves_properties": "dtterralith:acacia_amethyst",
-  "drop_seeds": false,
+  "generate_seed": true,
+  "generate_sapling": true,
   "environment_factors" : {
     "cold": 0.2,
     "dry": 0.4,
@@ -14,6 +15,5 @@
   },
   "mega_species": "dtterralith:amethyst_mahogany",
   "perfect_biomes": { "type": "jungle" },
-  "common_override": { "name": "terralith:amethyst.*" },
-  "generate_sapling": true
+  "common_override": { "name": "terralith:amethyst.*" }
 }

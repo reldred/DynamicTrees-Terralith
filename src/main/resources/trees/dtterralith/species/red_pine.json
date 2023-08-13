@@ -11,7 +11,8 @@
     "properties": { "energy_divisor": 6 }
   },
   "leaves_properties": "dtterralith:dark_oak_red_conifer",
-  "drop_seeds": false,
+  "generate_seed": true,
+  "generate_sapling": true,
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,
@@ -19,6 +20,7 @@
   },
   "perfect_biomes": { "type": "coniferous" },
   "acceptable_soils": ["dirt_like"],
+  "mega_species": "dtterralith:mega_red_pine",
   "features" : [
     "conifer_topper",
     "mushroom_rot"

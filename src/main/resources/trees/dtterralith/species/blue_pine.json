@@ -7,7 +7,8 @@
   "growth_rate": 0.9,
   "growth_logic_kit": "conifer",
   "leaves_properties": "dtterralith:dark_oak_blue_conifer",
-  "drop_seeds": false,
+  "generate_seed": true,
+  "generate_sapling": true,
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,

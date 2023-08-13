@@ -20,8 +20,8 @@
     "wet": 0.75
   },
   "world_gen_leaf_map_height": 70,
-  "perfect_biomes": { "name": "byg:dover_mountains" },
-  "common_override": { "name": "byg:dover_mountains" },
+  "common_override": { "name": "terralith:wintry.*" },
+  "perfect_biomes": { "name": "terralith:wintry.*" },
   "generate_sapling": true,
   "features" : [
     "conifer_topper",

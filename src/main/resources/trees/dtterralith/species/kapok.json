@@ -6,7 +6,6 @@
   "growth_rate": 0.8,
   "max_branch_radius": 12,
   "leaves_properties": "dtterralith:acacia_kapok",
-  "drop_seeds": false,
   "environment_factors" : {
     "cold": 0.75,
     "hot": 0.5,

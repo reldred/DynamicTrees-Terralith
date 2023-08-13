@@ -1,32 +1,43 @@
 {
   "family": "dark_oak",
-  "tapering": 0.25,
-  "signal_energy": 24.0,
-  "up_probability": 7,
-  "lowest_branch_height": 5,
-  "growth_rate": 0.9,
-  "soil_longevity": 16,
+  "tapering": 0.225,
+  "signal_energy": 35.0,
+  "up_probability": 9,
+  "lowest_branch_height": 6,
+  "growth_rate": 1.2,
+  "soil_longevity": 24,
   "max_branch_radius": 24,
+  "world_gen_leaf_map_height": 50,
   "growth_logic_kit": {
     "name": "conifer",
-    "properties": { "energy_divisor": 5 }
+    "properties": {
+      "energy_divisor": 5
+    }
   },
   "leaves_properties": "dtterralith:dark_oak_orange_conifer",
-  "drop_seeds": false,
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
   },
+  "use_seed_of_other_species": "dtterralith:orange_pine",
   "features" : [
     "conifer_topper",
     {
       "name": "mound",
       "properties": {
-        "mound_cutoff_radius": 999
+          "mound_cutoff_radius": 999
+      }
+    },
+    {
+      "name": "roots",
+      "properties": {
+        "min_trunk_radius": 9,
+        "scale_factor": 20
       }
     },
     "clear_volume",
-    "podzol"
+    "podzol",
+    "bottom_flare"
   ]
 }
