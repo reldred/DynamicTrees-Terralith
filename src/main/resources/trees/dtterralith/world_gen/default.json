@@ -668,7 +668,6 @@
       "species" : {
         "random" : {
           "dtterralith:moonlight_pine" : 3,
-          "dtterralith:moonlight_poplar" : 1,
           "dtterralith:moonlight_spruce" : 1
         }
       },
@@ -683,7 +682,6 @@
       "species" : {
         "random" : {
           "dtterralith:moonlight_pine" : 3,
-          "dtterralith:moonlight_poplar" : 1,
           "dtterralith:moonlight_spruce" : 1
         }
       },

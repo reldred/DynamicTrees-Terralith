@@ -17,7 +17,7 @@
     "hot": 0.50,
     "wet": 0.75
   },
-  "use_seed_of_other_species": "dtterralith:cedar",
+  "seed": "dtterralith:cedar",
   "perfect_biomes": { "type": "coniferous" },
   "features" : [
     "conifer_topper"

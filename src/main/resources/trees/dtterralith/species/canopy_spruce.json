@@ -11,8 +11,6 @@
     }
   },
   "leaves_properties": "dtterralith:spruce_bush",
-  "generate_seed": true,
-  "generate_sapling": true,
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,

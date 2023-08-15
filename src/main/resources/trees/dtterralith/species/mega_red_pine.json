@@ -20,7 +20,7 @@
     "dry": 0.25,
     "wet": 0.75
   },
-  "use_seed_of_other_species": "dtterralith:red_pine",
+  "seed": "dtterralith:red_pine",
   "features" : [
     "conifer_topper",
     {

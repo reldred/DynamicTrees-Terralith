@@ -13,7 +13,7 @@
     "hot": 0.7,
     "cold": 0.7
   },
-  "use_seed_of_other_species": "dtterralith:ancient",
+  "seed": "dtterralith:ancient",
   "perfect_biomes": { "name": ".*mirage.*" },
   "features" : [
     {

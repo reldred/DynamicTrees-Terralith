@@ -13,6 +13,7 @@
     "nether": 0.75,
     "wet": 0.75
   },
+  "mega_species": "dtterralith:lush_mahogany",
   "perfect_biomes": { "type": "savanna" },
   "features" : [
     {

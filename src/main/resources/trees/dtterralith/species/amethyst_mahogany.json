@@ -16,7 +16,7 @@
     }
   },
   "leaves_properties": "dtterralith:acacia_amethyst",
-  "use_seed_of_other_species": "dtterralith:amethyst",
+  "seed": "dtterralith:amethyst",
   "environment_factors" : {
     "cold": 0.2,
     "dry": 0.4,
