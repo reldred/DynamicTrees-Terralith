@@ -9,7 +9,7 @@ displayName="Dynamic Trees for Terralith"
 credits=""
 authors="DJS, Max Hyper"
 description='''
-Adds Dynamic Trees Compatibility to Terralith. 
+Adds Dynamic Trees Compatibility with Terralith.
 '''
 
 [[dependencies.dtterralith]] #optional
