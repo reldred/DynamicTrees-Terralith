@@ -20,7 +20,7 @@
     "dry": 0.25,
     "wet": 0.75
   },
-  "seed": "dtterralith:larch",
+  "seed": "dtterralith:larch_seed",
   "features" : [
     "conifer_topper",
     {

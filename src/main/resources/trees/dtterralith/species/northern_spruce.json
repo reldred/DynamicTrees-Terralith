@@ -17,9 +17,9 @@
     "hot": 0.50,
     "wet": 0.75
   },
-  "seed": "dtterralith:black_poplar",
+  "seed": "dtterralith:black_poplar_seed",
   "perfect_biomes": { "type": "coniferous" },
-  "mega_species": "mega_big_spruce",
+  "mega_species": "dtterralith:mega_big_spruce",
   "features" : [
     "conifer_topper"
   ]

@@ -20,7 +20,7 @@
     "dry": 0.25,
     "wet": 0.75
   },
-  "seed": "dtterralith:orange_pine",
+  "seed": "dtterralith:orange_pine_seed",
   "features" : [
     "conifer_topper",
     {

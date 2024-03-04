@@ -14,7 +14,7 @@
   "growth_logic_kit": "azalea",
   "perfect_biomes": { "name": "terralith:temperate_highlands" },
   "acceptable_soils": ["dirt_like"],
-  "seed": "dtterralith:red_pine",
+  "seed": "dtterralith:red_pine_seed",
   "features": [
     {
       "name": "rot_soil",

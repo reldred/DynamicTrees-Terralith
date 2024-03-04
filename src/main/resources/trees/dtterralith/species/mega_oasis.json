@@ -11,7 +11,7 @@
     "dry": 0.5,
     "dense": 0.75
   },
-  "seed": "dtterralith:oasis",
+  "seed": "dtterralith:oasis_seed",
   "growth_logic_kit": "azalea",
   "acceptable_soils": ["dirt_like", "sand_like"],
   "features": [

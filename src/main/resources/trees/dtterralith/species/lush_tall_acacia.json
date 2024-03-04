@@ -6,7 +6,7 @@
   "lowest_branch_height": 6,
   "growth_rate": 0.6,
   "leaves_properties": "dtterralith:azalea_canopy",
-  "seed": "dtterralith:lush_acacia",
+  "seed": "dtterralith:lush_acacia_seed",
   "growth_logic_kit": "dtterralith:tall_deciduous",
   "environment_factors" : {
     "cold": 0.25,
