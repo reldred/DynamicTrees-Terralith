@@ -67,14 +67,19 @@ public class DynamicTreesTerralith {
 						.findResource("resourcepacks/replace_tree_features_fix");
 
 				try (PathPackResources pack = new PathPackResources(
-						ModList.get().getModFileById(MODID).getFile().getFileName() + ":" + resourcePath,
+						ModList.get().getModFileById(MODID).getFile().getFileName() + ":" + resourcePath, true,
 						resourcePath)) {
 					try {
-						PackMetadataSection metadataSection = pack.getMetadataSection(PackMetadataSection.SERIALIZER);
+						PackMetadataSection metadataSection = pack.getMetadataSection(PackMetadataSection.TYPE);
 						event.addRepositorySource((packConsumer, packConstructor) -> packConsumer
-								.accept(packConstructor.create("builtin/replace_tree_features_fix",
-										Component.literal("dtterralith fixes: replace_tree_features_fix"), false,
-										() -> pack, metadataSection, Pack.Position.TOP, PackSource.BUILT_IN, false)));
+								.accept(Pack.create("builtin/replace_tree_features_fix",
+										Component.literal("dtterralith fixes: replace_tree_features_fix"),
+										false,
+										() -> pack,
+										metadataSection,
+										Pack.Position.TOP,
+										PackSource.BUILT_IN,
+										false)));
 					} catch (IOException e) {
 						e.printStackTrace();
 					}
@@ -91,7 +96,7 @@ public class DynamicTreesTerralith {
 						ModList.get().getModFileById(MODID).getFile().getFileName() + ":" + resourcePath,
 						resourcePath)) {
 					try {
-						PackMetadataSection metadataSection = pack.getMetadataSection(PackMetadataSection.SERIALIZER);
+						PackMetadataSection metadataSection = pack.getMetadataSection(PackMetadataSection.TYPE);
 						event.addRepositorySource((packConsumer, packConstructor) -> packConsumer
 								.accept(packConstructor.create("builtin/skylands_winter_fix",
 										Component.literal("dtterralith fixes: skylands_winter_fix"), false,
